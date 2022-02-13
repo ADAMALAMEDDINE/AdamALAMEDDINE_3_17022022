@@ -129,7 +129,7 @@ header > img {
 .heart {
   position: absolute;
   top: 20%;
-  right: 5%;
+  right: 3%;
   font-size: 25px;
   width: 25px;
   height: 25px;
@@ -618,14 +618,24 @@ footer .contactus > a:hover {
   body {
     width: auto;
   }
-  .restaurantimg
-.restaurantname {
+  .restaurantname {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     font-size: 25px;
+  }
+  .restaurantname .heart {
+    font-size: 40px;
+    top: 30%;
+    right: 10%;
+  }
+  .restaurantname .heart .empty {
+    font-size: 40px;
+  }
+  .restaurantname .heart .full {
+    font-size: 40px;
   }
   .choix {
     text-align: center;

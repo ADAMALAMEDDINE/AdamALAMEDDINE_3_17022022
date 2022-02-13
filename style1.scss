@@ -100,7 +100,7 @@ body {
   {
       position: absolute;
       top: 20%;
-      right: 5%;
+      right: 3%;
       font-size: 25px;
       width: 25px;
       height: 25px;
@@ -215,7 +215,8 @@ width: 35px;
         }
     }
  }
-.starter1
+
+ .starter1
 {
     animation: starter 1s 1s forwards;
     opacity: 0;
@@ -468,6 +469,8 @@ width: 35px;
       align-items: center;
       justify-content: space-around;
   }
+
+  
   .choix
   {
       text-align: center;
@@ -522,15 +525,30 @@ width: 35px;
     {
         width: auto;
     }
-    .restaurantimg
-  
 
   .restaurantname
   {
       align-items: center;
       justify-content: space-around;
       font-size: 25px;
+
+      .heart
+      {
+          font-size: 40px;
+          top: 30%;
+          right: 10%;
+          .empty
+          {
+              font-size: 40px;
+          }
+          .full
+          {
+              font-size: 40px;
+          }
+      }
   }
+
+
   .choix
   {
       text-align: center;
